@@ -45,7 +45,7 @@ if cd led_debug; then
 	git pull 
 	cd ../
 else 
-	git https://github.com/SciCoBot/led_debug.git led_debug 
+	git clone https://github.com/SciCoBot/led_debug.git led_debug 
 fi
 echo "I'm in:$PWD" $'\n'
 
