@@ -49,4 +49,13 @@ else
 fi
 echo "I'm in:$PWD" $'\n'
 
+if cd micro_ros_arduino_foxy; then 
+	echo "Update micro_ros_arduino_foxy"
+	git pull 
+	cd ../
+else 
+	git clone --single-branch -b foxy https://github.com/micro-ROS/micro_ros_arduino.git micro_ros_arduino_foxy
+fi
+echo "I'm in:$PWD" $'\n'
+
 pushd > /dev/null
