@@ -40,4 +40,13 @@ else
 fi
 echo "I'm in:$PWD" $'\n'
 
+if cd led_debug; then 
+	echo "Update led_debug"
+	git pull 
+	cd ../
+else 
+	git https://github.com/SciCoBot/led_debug.git led_debug 
+fi
+echo "I'm in:$PWD" $'\n'
+
 pushd > /dev/null
