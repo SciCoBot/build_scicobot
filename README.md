@@ -39,3 +39,6 @@ Já tem o repósitorio?
 - instale [ros2 foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html)
 - instale colcon, ferramenta de construção do ROS2. Use: sudo apt install python3-colcon-common-extensions
 - [instale rosdep](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Binary.html#installing-and-initializing-rosdep), ferramenta de gerenciamento de dependência do ROS.
+
+# Referências que podem ajudar
+- [IRIS-2022 wiki](https://github.com/IllinoisRoboticsInSpace/IRIS-2022/wiki#welcome-to-the-iris-2022-wiki)
