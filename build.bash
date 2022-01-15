@@ -58,4 +58,31 @@ else
 fi
 echo "I'm in:$PWD" $'\n'
 
+if cd differential_drive; then 
+	echo "Update differential_drive"
+	git pull 
+	cd ../
+else 
+	git clone https://github.com/SciCoBot/differential_drive_class.git differential_drive
+fi
+echo "I'm in:$PWD" $'\n'
+
+if cd scicobot_hardware; then 
+	echo "Update scicobot_hardware"
+	git pull 
+	cd ../
+else 
+	git clone https://github.com/SciCoBot/scicobot_hardware.git scicobot_hardware
+fi
+echo "I'm in:$PWD" $'\n'
+
+if cd encoder; then 
+	echo "Update encoder"
+	git pull 
+	cd ../
+else 
+	git clone https://github.com/SciCoBot/encoder.git encoder
+fi
+echo "I'm in:$PWD" $'\n'
+
 pushd > /dev/null
