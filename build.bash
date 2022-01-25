@@ -36,7 +36,7 @@ if cd serial_debug; then
 	git pull 
 	cd ../
 else 
-	git clone https://github.com/SciCoBot/serial_debug_with_class.git serial_debug 
+	git clone https://github.com/SciCoBot/serial_debug.git serial_debug 
 fi
 echo "I'm in:$PWD" $'\n'
 
@@ -63,7 +63,7 @@ if cd differential_drive; then
 	git pull 
 	cd ../
 else 
-	git clone https://github.com/SciCoBot/differential_drive_class.git differential_drive
+	git clone https://github.com/SciCoBot/differential_drive differential_drive
 fi
 echo "I'm in:$PWD" $'\n'
 
@@ -72,16 +72,7 @@ if cd scicobot_hardware; then
 	git pull 
 	cd ../
 else 
-	git clone https://github.com/SciCoBot/scicobot_hardware.git scicobot_hardware
-fi
-echo "I'm in:$PWD" $'\n'
-
-if cd encoder; then 
-	echo "Update encoder"
-	git pull 
-	cd ../
-else 
-	git clone https://github.com/SciCoBot/encoder.git encoder
+	git clone https://github.com/SciCoBot/scicobot_arduino.git scicobot_arduino 1-0
 fi
 echo "I'm in:$PWD" $'\n'
 
