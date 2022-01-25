@@ -72,7 +72,7 @@ if cd scicobot_hardware; then
 	git pull 
 	cd ../
 else 
-	git clone https://github.com/SciCoBot/scicobot_arduino.git scicobot_arduino 1-0
+	git clone https://github.com/SciCoBot/scicobot_arduino.git scicobot_arduino 1.0
 fi
 echo "I'm in:$PWD" $'\n'
 echo "Finisher\n'
