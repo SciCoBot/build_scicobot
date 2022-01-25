@@ -19,17 +19,17 @@
 - Vá para File > Examples > Basic > Blink
 - Verifique se o LED onboard no arduino está piscando
 
-## build_scicobot
+## build_scicobot_arduino
 
 Lógica de funcionamento:
 - cd ~/
 - git clone https://github.com/SciCoBot/build_scicobot_arduino.git
-- cd build_scicobot/
+- cd build_scicobot_arduino/
 - export librarie_arduino_path=[LIBRARIE ARDUINO PATH]
 - source update.bash
 
 Já tem o repósitorio?
-- cd ~/build_scicobot/
+- cd ~/build_scicobot_arduino/
 - export librarie_arduino_path=[LIBRARIE ARDUINO PATH]
 - source update.bash
 
